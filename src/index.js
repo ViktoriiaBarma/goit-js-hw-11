@@ -1,7 +1,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-import { getFoto } from './api';
+import { getFoto } from './js/api';
 
 const form = document.querySelector('.search-form')
 const gallery = document.querySelector('.gallery')
