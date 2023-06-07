@@ -30,3 +30,23 @@
 .hidden {
   display: none;
 }
+
+.info{
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.gallery{
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.info-item{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+}
